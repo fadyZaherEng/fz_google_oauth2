@@ -39,7 +39,7 @@ contain Custom Interceptors For Refresh Token
 
 ```yaml
 dependencies:
-  fz_google_oauth2: ^0.0.1
+  fz_google_oauth2: ^0.0.2
 ```
 
 2. `Install Package` In your project:
