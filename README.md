@@ -16,7 +16,7 @@ contain Custom Interceptors For Refresh Token
 
 ## 🎥 Check out the video trimming in action!
 ## Screens
-| ![Screen 1](https://raw.githubusercontent.com/fadyZaherEng/flutterVideoTrimmerTest/master/assets/1.jpg) | ![Screen 2](https://raw.githubusercontent.com/fadyZaherEng/flutterVideoTrimmerTest/master/assets/2.jpg) |  
+| ![Screen 1](https://raw.githubusercontent.com/fadyZaherEng/fz_google_oauth2/master/assets/1.jpg) | ![Screen 2](https://raw.githubusercontent.com/fadyZaherEng/fz_google_oauth2/master/assets/2.jpg) |  
 |:-----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:| 
  
 --- 
