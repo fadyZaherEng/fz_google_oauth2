@@ -1,9 +1,10 @@
 🎬 fz_google_oauth2
 
-A Flutter package for Google OAuth2 authentication to get access to Google APIs , login And. 
+A Flutter package for Google OAuth2 authentication to get access to Google APIs , login And.
 contain Custom Interceptors For Refresh Token
 
 ## 📖 Table of Contents
+
 - [Screenshots](#Screenshots)
 - [Features](#Features)
 - [Getting Started](#getting-started)
@@ -15,38 +16,48 @@ contain Custom Interceptors For Refresh Token
 - [License](#license)
 
 ## 🎥 Check out the video trimming in action!
+
 ## Screens
+
 | ![Screen 1](https://raw.githubusercontent.com/fadyZaherEng/fz_google_oauth2/master/assets/1.jpg) | ![Screen 2](https://raw.githubusercontent.com/fadyZaherEng/fz_google_oauth2/master/assets/2.jpg) |  
-|:-----------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------------:| 
+|:------------------------------------------------------------------------------------------------:|:------------------------------------------------------------------------------------------------:| 
+
  
 --- 
+
 ## Features
 
 - 🚀 Login And Get Access To Google APIs
 - 🚀 Custom Interceptors For Refresh Token
-- 🚀 Complete Google OAuth2 Flow 
+- 🚀 Complete Google OAuth2 Flow
 
 ---
+
 ## Getting Started
 
 1. **Add dependency:**
    In your `pubspec.yaml`:
+
 ```yaml
 dependencies:
   fz_google_oauth2: ^0.0.1
 ```
 
 2. `Install Package` In your project:
+
 ```
 flutter pub get
 ```
 
 3. `Android Configuration:` In your AndroidManifest.xml:
+
 ```xml
+
 <uses-permission android:name="android.permission.INTERNET" /> 
 ```
 
 in /android/app/build.gradle
+
 ```
 minSdk = 24
 // Prefered 
@@ -54,18 +65,19 @@ compileSdk = 34
 ```
 
 4. `iOS Configuration:` No additional configuration is required for iOS.:
-``` 
-```
- 
- 
-##  Usage
 
-Here’s a complete example showing how to use 
+## Usage
+
+Here’s a complete example showing how to use
 the `fz_google_oauth2` package to get access to Google APIs and login.
 
 ## usage google_oauth2
+
 ```dart
- final result = await FzGoogleOauth2Services.login(
+
+final result = await
+FzGoogleOauth2Services.login
+(
 tenantId: "YOUR_TENANT_ID",
 clientId: "YOUR_CLIENT_ID",
 clientSecret: "YOUR_CLIENT_SECRET",
@@ -82,7 +94,9 @@ SnackBar(content: Text("Your Token is ${result['access_token']}"));
 ScaffoldMessenger.of(context).showSnackBar(snackBar);
 }
 ```
+
 ## Custom Interceptors For Refresh Token
+
 ```dart
   /// Generate Refresh token when expired token
 /// By custom indicator
@@ -107,10 +121,15 @@ void generateCustomTokenWhenExpiredTokenByCustomIndicator() async {
   //then you can use your custom interceptors in your dio
 }
 ```
+
 ## Example_Full_Code
+
 [You Can Find The Full Code Here](https://github.com/fadyZaherEng/fz_google_oauth2)
+
 ## Dependencies Used
+
 ## This package uses (You do not have to import them):
+
     dio:
 
 ```
@@ -121,8 +140,12 @@ Flutter project.
 ```
 
 ## About the Developer
-Hello! 👋 I'm Fady Zaher, a Mid Level Flutter Developer with extensive experience in building high-quality mobile applications.
+
+Hello! 👋 I'm Fady Zaher, a Mid Level Flutter Developer with extensive experience in building
+high-quality mobile applications.
+
 - 📧 Email: fedo.zaher@gmail.com
+
 ---
 If you like this package, feel free to ⭐️ the repo and share it!
 
