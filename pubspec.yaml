@@ -1,0 +1,25 @@
+name: fz_google_oauth2
+description: "A Flutter plugin for Google OAuth."
+version: 0.0.1
+repository: https://github.com/fadyZaherEng/fz_google_oauth2
+homepage: https://github.com/fadyZaherEng/fz_google_oauth2
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dio: ^5.8.0+1
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  assets:
+    - assets/

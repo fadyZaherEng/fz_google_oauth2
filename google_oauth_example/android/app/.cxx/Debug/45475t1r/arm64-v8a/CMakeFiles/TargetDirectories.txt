@@ -1,0 +1,2 @@
+C:/Users/Sefen/StudioProjects/google_oauth_example/android/app/.cxx/Debug/45475t1r/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Sefen/StudioProjects/google_oauth_example/android/app/.cxx/Debug/45475t1r/arm64-v8a/CMakeFiles/rebuild_cache.dir
